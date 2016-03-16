@@ -1,0 +1,142 @@
+* {
+	webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	padding-top: 35px;
+	font-size: 100%;
+	color:#777;
+}
+
+p {
+	color: #777;
+	line-height: 24px;
+	font-size: 16px;
+}
+
+a {
+	color: #777
+}
+
+.intro,
+.recursos,
+.footer {
+	text-align: center;
+	padding: 35px;
+}
+
+.intro h1,
+.recursos h2,
+.title {
+	font-weight: 300;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	background-color: #fff;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.sidebar {
+	position: fixed;
+	top: 35px;
+	bottom: 0;
+	padding: 2em 3em 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	font-size: 12px;
+}
+.sidebar strong{
+	color: #42A5F5;
+}
+.sidebar strong::before{
+  content: "\f114";
+  font-family: FontAwesome;
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: .8em;
+  color: rgba(0,0,0,1);
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+  text-align: center;
+  margin: -4px 10px 0px -15px;
+}
+.content {
+	padding: 2em 3em 0;
+	margin-left: 25%;
+}
+
+.footer {
+	margin-top: 32px;
+	border-top: 1px solid #ddd;
+}
+
+.footer nav a {
+	display: inline-block;
+	padding: 2px 8px;
+	font-size: 12px;
+}
+
+.footer p {
+	font-size: 12px;
+}
+
+.componente {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 16px;
+	margin-bottom: 16px;
+}
+
+.fontawesome-icon-list .icones-exemplo i {
+	font-size: 32px;
+	display: inline-block;
+	padding: 10px;
+}
+
+.love {
+	position: relative;
+	top: .2em;
+	display: inline-block;
+	font-size: 1.4em;
+	color: #e74c3c;
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	transform: scale(0.9);
+	-webkit-animation: love .5s infinite linear alternate-reverse;
+	-moz-animation: love .5s infinite linear alternate-reverse;
+	animation: love .5s infinite linear alternate-reverse;
+}
+
+@-webkit-keyframes love {
+	to {
+		-webkit-transform: scale(1.2)
+	}
+}
+
+@-moz-keyframes love {
+	to {
+		-moz-transform: scale(1.2)
+	}
+}
+
+@keyframes love {
+	to {
+		transform: scale(1.2)
+	}
+}
+
+.pl-ra{
+  width: 65%;
+  margin: 0px auto;
+}
+
